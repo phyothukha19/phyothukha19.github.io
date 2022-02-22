@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        for (let  i = 1; i <= 5; i++){
+            document.write('<h1>Hello JS</h1>');
+        }
+
+        let list = ['MgMg','Ayeaye','Maymay','Sansan','Phayphay'];
+            for (let j = 0; j < list.length; j++){
+                document.write(`<h1>${list[j]}</h1>`);
+
+            }
+
+            for ( n = 1; n <= 12; n++ ) {
+                document.write(`<h1>12x${n}=${12*n} </h1>`)
+            }
+
+
+
+
+        // Netstat loop
+
+         for ( p = 0; p < 5; p++){
+           for (l = 0; l < 5; l++){
+                 document.write(`*`);
+             }
+             document.write('<br>');
+         }
+        
+        for ( x = 0; x < 5; x++){
+            for (a = 0; a <=x; a++){
+                document.write(`*`);
+            }
+            document.write('<br>');
+        }
+
+        // while loop
+
+        let  num = 1;
+
+        while ( num <=11) {
+
+            document.write('<h3>This number is '+num+'</h3>');
+            num++;
+        }  
+           
+        // do while loop
+
+        let no = 11;
+        
+        do { 
+               document.write('<h3>This number is '+ no +'</h3>');
+               no++;
+
+           }   while (no <=10 )
+          </script>
+
+
+</body>
+</html>
